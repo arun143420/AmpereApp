@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateDevice"
+    android:orientation="vertical"
+    android:background="@drawable/final_bg"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Your New Device"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="#423E3E"
+        android:textSize="30dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Device Name"
+        android:id="@+id/id_devicename"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#D5D5D5"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Device Id"
+        android:id="@+id/id_deviceid"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#D5D5D5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Device"
+        android:layout_marginTop="20dp"
+        android:textFontWeight="bold"
+        android:id="@+id/id_add_device"/>
+
+
+
+</LinearLayout>

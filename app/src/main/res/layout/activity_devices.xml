@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F9F9F9"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linear_ist_device">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/head1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text=" Registered Your First Device"
+        android:textColor="#423E3E"
+        android:textSize="30dp"
+         />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:id="@+id/hr_line"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Device Name"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#D5D5D5"
+        android:id="@+id/ist_device_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Device ID"
+        android:padding="15dp"
+        android:textColorHint="#D5D5D5"
+        android:id="@+id/ist_device_id"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Device"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ist_btn"/>
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/liner_all_devices">
+    <TextView
+        android:id="@+id/headr_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="All Devices"
+        android:textColor="#423E3E"
+        android:textSize="30dp" />
+    <View
+        android:id="@+id/hr1_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+            <ListView
+                android:id="@+id/id_devices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F9F9F9"
+                android:dividerHeight="10.0sp">
+
+            </ListView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/load_text"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Loading"
+            android:textColor="#2f2f2f"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            tools:fontFamily="@font/biryani_semibold"/>
+
+
+
+
+        <ProgressBar
+            android:id="@+id/load_bar"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp" />
+
+
+
+
+
+
+</LinearLayout>
+

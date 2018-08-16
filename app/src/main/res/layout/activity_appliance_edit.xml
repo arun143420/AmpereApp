@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ApplianceEdit"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Device Name"
+        android:textColor="#423E3E"
+        android:textSize="30dp"
+        android:id="@+id/id_device_head_edit"/>
+
+    <EditText
+        android:id="@+id/id_appliance_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Appliance Name"
+        android:padding="15dp"
+        android:textColorHint="#D5D5D5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Appliance"
+        android:layout_marginTop="20dp"
+        android:textFontWeight="bold"
+        android:id="@+id/id_add_edit_app"/>
+</LinearLayout>

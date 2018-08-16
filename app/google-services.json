@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1097965851151",
+    "firebase_url": "https://ampereplusapp.firebaseio.com",
+    "project_id": "ampereplusapp",
+    "storage_bucket": "ampereplusapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097965851151:android:056a509810488608",
+        "android_client_info": {
+          "package_name": "com.example.arun.ampereplusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097965851151-n12frn2cieu0knvtrk53pgcpdvb067q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhSpojLjJPi1W_lxmBJkWIki9M3IPSRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

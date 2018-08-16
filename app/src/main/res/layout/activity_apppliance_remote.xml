@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AppplianceRemote"
+    android:layout_marginTop="0dp"
+    android:background="#F9F9F9"
+    android:orientation="vertical">
+
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <TextView
+            android:id="@+id/appliance_name_remote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+
+            android:fontFamily="@font/anonymous_pro_italic"
+            android:padding="20dp"
+            android:text="Appliance Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/appliance_on_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="6"
+                android:padding="5dp"
+                android:foregroundGravity="right"
+                android:src="@drawable/on_indicator" />
+
+            <ImageView
+                android:id="@+id/appliance_off_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_weight="6"
+                android:padding="5dp"
+                android:foregroundGravity="right"
+                android:src="@drawable/off_indicator"
+                />
+        </RelativeLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/appliance_on_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+
+        <Button
+            android:id="@+id/appliance_off_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OFF"
+            />
+    </LinearLayout>
+
+
+
+
+        <View
+            android:id="@+id/hr_line"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#c0c0c0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Set oFF Time "
+                    android:id="@+id/off_timer"
+                    android:padding="5dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Set On Timer "
+                    android:id="@+id/on_timer"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+

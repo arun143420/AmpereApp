@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Appliances">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Appliances in"
+            android:textColor="#423E3E"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Appliances"
+            android:textColor="#423E3E"
+            android:textSize="30dp"
+            android:id="@+id/device_head_name"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/hr_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_light"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="No Appliances Yet"
+        android:textColor="#423E3E"
+        android:textSize="30dp"
+        android:id="@+id/no_app"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:fontFamily="@font/ubuntu_light"
+        android:textColor="#1a0dab"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:textSize="20dp"
+        android:id="@+id/no_app_btn"/>
+
+    <ListView
+        android:id="@+id/appliances_id_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:dividerHeight="10.0sp">
+
+    </ListView>
+
+</LinearLayout>

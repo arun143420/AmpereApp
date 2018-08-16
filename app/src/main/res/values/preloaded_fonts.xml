@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/actor</item>
+        <item>@font/amarante</item>
+        <item>@font/anonymous_pro_italic</item>
+        <item>@font/biorhyme_expanded_regular</item>
+        <item>@font/biryani_semibold</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/sintony</item>
+        <item>@font/ubuntu_light</item>
+    </array>
+</resources>
